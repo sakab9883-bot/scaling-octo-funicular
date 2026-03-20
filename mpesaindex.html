@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My App Payment</title>
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      padding: 40px;
+      background: #f5f5f5;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      max-width: 400px;
+      margin: auto;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    button {
+      background: green;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>🚀 Upgrade to Pro</h1>
+    <p><strong>Price:</strong> KES 200</p>
+
+    <h3>📲 Pay via M-Pesa</h3>
+    <p>Number: <strong>07XXXXXXXX</strong></p>
+    <p>Name: <strong>Your Name</strong></p>
+
+    <p>After payment, click below:</p>
+
+    <button onclick="confirmPayment()">I Have Paid</button>
+
+    <p id="message"></p>
+  </div>
+
+  <script>
+    function confirmPayment() {
+      document.getElementById("message").innerHTML =
+        "✅ Payment received! Send screenshot to WhatsApp: 07XXXXXXXX";
+    }
+  </script>
+
+</body>
+</html>
