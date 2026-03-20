@@ -1,0 +1,44 @@
+{
+  "clients": [
+    {
+      "name": "Acme Corporation",
+      "email": "contact@acme.com",
+      "phone": "+1 (555) 123-4567",
+      "company": "Acme Corp",
+      "status": "active",
+      "notes": "Enterprise client with premium support"
+    },
+    {
+      "name": "TechStart Inc",
+      "email": "hello@techstart.io",
+      "phone": "+1 (555) 234-5678",
+      "company": "TechStart",
+      "status": "active",
+      "notes": "Startup client, fast-growing"
+    },
+    {
+      "name": "Global Services Ltd",
+      "email": "info@globalservices.com",
+      "phone": "+1 (555) 345-6789",
+      "company": "Global Services",
+      "status": "pending",
+      "notes": "Pending contract review"
+    },
+    {
+      "name": "Digital Solutions",
+      "email": "team@digitalsolutions.co",
+      "phone": "+1 (555) 456-7890",
+      "company": "Digital Solutions",
+      "status": "active",
+      "notes": "Long-term partner"
+    },
+    {
+      "name": "Innovation Labs",
+      "email": "labs@innovation.dev",
+      "phone": "+1 (555) 567-8901",
+      "company": "Innovation Labs",
+      "status": "inactive",
+      "notes": "Project completed, may return"
+    }
+  ]
+}

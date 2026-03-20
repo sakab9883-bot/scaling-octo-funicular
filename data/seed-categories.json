@@ -1,0 +1,40 @@
+{
+  "categories": [
+    {
+      "name": "Enterprise",
+      "tier": "top",
+      "description": "Premium enterprise solutions with dedicated support and custom integrations",
+      "color": "#10b981"
+    },
+    {
+      "name": "Professional",
+      "tier": "top",
+      "description": "Advanced features for growing businesses",
+      "color": "#3b82f6"
+    },
+    {
+      "name": "Business",
+      "tier": "middle",
+      "description": "Essential business tools and standard support",
+      "color": "#8b5cf6"
+    },
+    {
+      "name": "Team",
+      "tier": "middle",
+      "description": "Collaboration features for small teams",
+      "color": "#f59e0b"
+    },
+    {
+      "name": "Starter",
+      "tier": "bottom",
+      "description": "Basic features to get started",
+      "color": "#6b7280"
+    },
+    {
+      "name": "Free Trial",
+      "tier": "bottom",
+      "description": "14-day trial with limited features",
+      "color": "#94a3b8"
+    }
+  ]
+}

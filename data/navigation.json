@@ -1,0 +1,71 @@
+{
+  "mainNavigation": [
+    {
+      "name": "Overview",
+      "href": "/dashboard",
+      "icon": "LayoutDashboard",
+      "description": "Dashboard overview and statistics"
+    },
+    {
+      "name": "Clients",
+      "href": "/dashboard/clients",
+      "icon": "Users",
+      "description": "Manage your client relationships"
+    },
+    {
+      "name": "Payments",
+      "href": "/dashboard/payments",
+      "icon": "CreditCard",
+      "description": "Track and manage payments"
+    },
+    {
+      "name": "Categories",
+      "href": "/dashboard/categories",
+      "icon": "FolderTree",
+      "description": "Organize with categories and tiers"
+    },
+    {
+      "name": "Files",
+      "href": "/dashboard/files",
+      "icon": "FileText",
+      "description": "Upload and manage files"
+    },
+    {
+      "name": "Settings",
+      "href": "/dashboard/settings",
+      "icon": "Settings",
+      "description": "Account and app settings"
+    }
+  ],
+  "userMenu": [
+    {
+      "name": "Profile",
+      "href": "/dashboard/settings",
+      "icon": "User"
+    },
+    {
+      "name": "Settings",
+      "href": "/dashboard/settings",
+      "icon": "Settings"
+    },
+    {
+      "name": "Sign Out",
+      "action": "signOut",
+      "icon": "LogOut"
+    }
+  ],
+  "footerLinks": [
+    {
+      "name": "Help",
+      "href": "/help"
+    },
+    {
+      "name": "Privacy",
+      "href": "/privacy"
+    },
+    {
+      "name": "Terms",
+      "href": "/terms"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "app": {
+    "name": "DashSuite Pro",
+    "version": "1.0.0",
+    "description": "Professional dashboard for managing clients, payments, and files"
+  },
+  "features": {
+    "clients": {
+      "enabled": true,
+      "maxPerUser": 1000
+    },
+    "payments": {
+      "enabled": true,
+      "currencies": ["USD", "EUR", "GBP", "CAD", "AUD"],
+      "defaultCurrency": "USD"
+    },
+    "categories": {
+      "enabled": true,
+      "tiers": ["top", "middle", "bottom"],
+      "defaultColors": ["#10b981", "#3b82f6", "#8b5cf6", "#f59e0b", "#ef4444", "#6b7280"]
+    },
+    "files": {
+      "enabled": true,
+      "maxFileSize": 10485760,
+      "allowedTypes": ["image/*", "application/pdf", ".doc", ".docx", ".xls", ".xlsx", ".csv", ".txt"],
+      "folders": ["uploads", "documents", "images", "reports"]
+    }
+  },
+  "dashboard": {
+    "defaultView": "overview",
+    "refreshInterval": 30000,
+    "recentItemsLimit": 5
+  },
+  "theme": {
+    "defaultMode": "system",
+    "primaryColor": "#5865f2",
+    "accentColor": "#10b981"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "payments": [
+    {
+      "amount": 5000.00,
+      "currency": "USD",
+      "status": "paid",
+      "description": "Monthly retainer - March 2026",
+      "due_date": "2026-03-15"
+    },
+    {
+      "amount": 12500.00,
+      "currency": "USD",
+      "status": "paid",
+      "description": "Website development - Phase 1",
+      "due_date": "2026-03-01"
+    },
+    {
+      "amount": 3500.00,
+      "currency": "USD",
+      "status": "pending",
+      "description": "Consulting services",
+      "due_date": "2026-03-25"
+    },
+    {
+      "amount": 8750.00,
+      "currency": "USD",
+      "status": "pending",
+      "description": "Mobile app development",
+      "due_date": "2026-04-01"
+    },
+    {
+      "amount": 2000.00,
+      "currency": "USD",
+      "status": "failed",
+      "description": "Support package renewal",
+      "due_date": "2026-02-28"
+    },
+    {
+      "amount": 15000.00,
+      "currency": "USD",
+      "status": "paid",
+      "description": "Enterprise license - Q1 2026",
+      "due_date": "2026-01-15"
+    }
+  ]
+}
