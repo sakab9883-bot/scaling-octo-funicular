@@ -1,1 +1,47 @@
-<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <title>Category Listing</title>\n    <style>\n        body {\n            font-family: Arial, sans-serif;\n            background: url('background.jpg') no-repeat center center fixed;\n            background-size: cover;\n            color: #333;\n        }\n        .category {\n            background-color: rgba(255, 255, 255, 0.8);\n            margin: 20px;\n            padding: 15px;\n            border-radius: 8px;\n            box-shadow: 0 2px 10px rgba(0,0,0,0.1);\n        }\n        h2 {\n            color: #ff6600;\n        }\n    </style>\n</head>\n<body>\n    <h1>Category Listing</h1>\n    <div class="category"><h2>E-commerce</h2></div>\n    <div class="category"><h2>Health</h2></div>\n    <div class="category"><h2>Science</h2></div>\n    <div class="category"><h2>Animation</h2></div>\n    <div class="category"><h2>Big Background Image</h2></div>\n    <div class="category"><h2>Colourful</h2></div>\n    <div class="category"><h2>Light</h2></div>\n    <div class="category"><h2>Neue Haas Unica</h2></div>\n    <div class="category"><h2>Next.js</h2></div>\n    <div class="category"><h2>React</h2></div>\n    <div class="category"><h2>Heroku</h2></div>\n    <div class="category"><h2>GSAP</h2></div>\n    <div class="category"><h2>Scrolling Animation</h2></div>\n</body>\n</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category Listing</title>
+</head>
+<body>
+    <h1>Category Listing</h1>
+    <div id="categories"></div>
+    <script>
+        // Check login status
+        function checkLoginStatus() {
+            // Implement login check logic
+            return true; // Replace with actual logic
+        }
+
+        // Check payment status
+        function checkPaymentStatus() {
+            // Implement payment status check logic
+            return true; // Replace with actual logic
+        }
+
+        // Display categories
+        function displayCategories() {
+            if (!checkLoginStatus()) {
+                document.getElementById('categories').innerHTML = '<p>Please log in to view categories.</p>'; 
+                return;
+            }
+            if (!checkPaymentStatus()) {
+                document.getElementById('categories').innerHTML = '<p>Please complete your payment to view categories.</p>'; 
+                return;
+            }
+            // Fetch and display categories if the user is logged in and payment status is confirmed
+            const categories = ['Category 1', 'Category 2', 'Category 3'];  // Sample categories
+            let html = ''; 
+            categories.forEach(category => {
+                html += `<div>${category}</div>`;
+            });
+            document.getElementById('categories').innerHTML = html;
+        }
+
+        // Load categories on page load
+        window.onload = displayCategories;
+    </script>
+</body>
+</html>
